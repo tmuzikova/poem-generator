@@ -7,40 +7,43 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Czech Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/tmuzikova/" target="_blank"
-        >Tereza Muzikova</a
-      >
-      is open-source on
-      <a href="https://github.com/tmuzikova/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-czech-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Czech Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/tmuzikova/" target="_blank"
+          >Tereza Muzikova</a
+        >
+        is open-source on
+        <a href="https://github.com/tmuzikova/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-czech-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
