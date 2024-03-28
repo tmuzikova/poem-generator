@@ -73,3 +73,13 @@ footer {
   text-align: center;
   margin-top: 30px;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.generating {
+  animation: blink 1s step-start 0s infinite;
+}
